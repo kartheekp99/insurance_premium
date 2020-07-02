@@ -1,0 +1,106 @@
+body{
+    background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url("banner.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(57, 104, 192, 0.8);
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 30px;
+    color: #ffffff;
+}
+
+form{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.text_field{;
+    padding: 8px 5px;
+    margin: 5px;
+    font-weight: bold;
+    box-sizing: border-box;
+    background:white;
+    color: black;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.drop_down{
+    font-weight: bold;
+    color: black;
+    padding: 6px;
+    padding-left: 12px;
+    margin-left: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 48%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.button{
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    width: 95%;
+    background: #ffffff;
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+}
+
+.button:hover{
+    background: #505050;
+    color: rgb(219, 219, 219);
+    opacity: 0.8;
+}
+
+.labels{
+    color: white;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.upload, .file{
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 15px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    width: 100%;
+    background: #ffffff;
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+}
+
+#file{
+    font-size: 15px;
+}
